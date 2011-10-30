@@ -1,0 +1,4 @@
+#/bin/bash
+FNAME=`dirname "$0"`
+#java -jar JRead.jar "$@"
+java -jar $FNAME/JRead.jar "$@"
